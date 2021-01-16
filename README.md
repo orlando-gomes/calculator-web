@@ -1,3 +1,12 @@
+# Pendencias
+Resolver: 0,1 + 0.2 = 0.3000000000000004 => Problema de precisão do Javascript
+Resolver: 1,1 * 3 = 3.3000000000000003 => Problema de precisão do Javascript
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
