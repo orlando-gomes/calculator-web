@@ -1,57 +1,31 @@
-
-
 <h1 align="center">
-    <img alt="Ecoleta" title="#Ecoleta" src="./assets/banner.png" />
+    <img alt="Calculator" title="#Calculator" src="./readmeassets/englishbanner.png" />
 </h1>
-
-<h1 align="center">
-   ♻️ <a href="#"> ECOLETA </a>
-</h1>
-
-<h3 align="center">
-    Your waste collection marketplace. We help the planet to be cleaner!
-</h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/README-ecoleta?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/orlando-gomes/calculator-web?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/orlando-gomes/calculator-web">
 
-  <a href="https://www.twitter.com/tgmarinho/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2FREADME-ecoleta">
+  <a href="https://github.com/orlando-gomes/calculator-web/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/orlando-gomes/calculator-web">
   </a>
-  
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
-  </a>
-    
+
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/README-ecoleta?style=social">
-  </a>
-
-  <a href="https://rocketseat.com.br">
-    <img alt="made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
-  </a>
-  
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
-    </a> 
 </p>
 
-
-<h4 align="center"> 
-	 Status: Finished
+<h4 align="center">
+	Calculator-web
 </h4>
 
 <p align="center">
  <a href="#about">About</a> •
  <a href="#features">Features</a> •
- <a href="#layout">Layout</a> • 
- <a href="#how-it-works">How it works</a> • 
- <a href="#tech-stack">Tech Stack</a> • 
- <a href="#contributors">Contributors</a> • 
- <a href="#author">Author</a> • 
+ <a href="#screens">Screens</a> •
+ <a href="#how-it-works">How it works</a> •
+ <a href="#tech-stack">Tech Stack</a> •
+ <a href="#challenge">Challenge</a> •
+ <a href="#author">Author</a> •
  <a href="#user-content-license">License</a>
 
 </p>
@@ -59,54 +33,33 @@
 
 ## About
 
-♻️ Ecoleta - is a way to connect companies and entities that collect organic and inorganic waste to people who need to dispose of their waste in an ecological way.
-Project developed during ** NLW - Next Level Week ** offered by [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/). NLW is an online experience with lots of practical content, challenges and hacks where the content is available for a week.
+Calculator-web - is a project created with the objective of composing my portfolio and, why not, as fun.
+
+The project is at a beginner level and aims to test styling and code production capabilities. The only constrain imposed is not using the eval() function to perform the calculations.
 
 ---
 
 ## Features
 
-- [x] Companies or entities can register on the web platform by sending:
-   - [x] an image of the collection point
-   - [x] entity name, email and whatsapp
-   - [x] and the address so that it can appear on the map
-   - [x] in addition to selecting one or more collection items:
-     - lamps
-     - Batteries
-     - papers and cardboard
-     - electronic waste
-     - organic waste
-     - kitchen oil
-
-- [x] Users have access to the mobile application, where they can:
-   - [x] browse the map to see the registered institutions
-   - [x] contact the entity via E-mail or WhatsApp
+- [X] User can see a display showing the current number entered or the result of the last operation.
+- [X] User can see an entry pad containing buttons for the digits 0-9, for operations '+', '-', '*' and '/', and '=', and '=' button.
+- [X] User can change the sign of the current number on the display, using a '+/-' button.
+- [X] User can enter a float number using a '.' button.
+- [X] User can calculate the square of a number, the cube, the inverse, the square root and percentages, through specific buttons.
+- [X] User can add a specific value in a secondary memory and retrieve it, using the 'M +' and 'MR' buttons.
+- [X] User can clear the current memory, the secondary memory and display, digit by digit, through specific buttons.
+- [X] The application uses the Mathjax library to display Latex directly in the browser. Latex is widely used to display Math on screen, such as the square root symbol used.
+- [X] The application displays some error messages for specific operations, such as square root of negative numbers and division by 0.
 
 ---
 
-## Layout
+## Screens
 
-The application layout is available on Figma:
+This is a single screen application,
 
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
-
-
-### Mobile
-
+O aplicativo tem tela única, in which work all the above features:
 <p align="center">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/home-mobile.png" width="200px">
-
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/detalhes-mobile.svg" width="200px">
-</p>
-
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/web.svg" width="400px">
-
-  <img alt="Ecoleta" title="#Ecoleta" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="Made by Orlando" src="./readmeassets/captura.png">
 </p>
 
 ---
@@ -126,7 +79,7 @@ Before you begin, you will need to have the following tools installed on your ma
 [Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
 In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-#### Rodando o Backend (servidor)
+#### Running the application
 
 ```bash
 
@@ -145,34 +98,7 @@ $ npm install
 # Run the application in development mode
 $ npm run dev:server
 
-# The server will start at port: 3333 - go to http://localhost:3333
-
-```
-<p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
-
-
-#### Running the web application (Frontend)
-
-```bash
-
-# Clone this repository
-$ git clone git@github.com: tgmarinho / README-ecoleta.git
-
-# Access the project folder in your terminal
-$ cd README-ecoleta
-
-# Go to the Front End application folder
-$ cd web
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm run start
-
-# The application will open on the port: 3000 - go to http://localhost:3000
+# The server will start on your default browser at port: 3333 - go to http://localhost:3333
 
 ```
 
@@ -184,105 +110,42 @@ The following tools were used in the construction of the project:
 
 #### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[React Icons](https://react-icons.github.io/react-icons/)**
--   **[Axios](https://github.com/axios/axios)**
--   **[Leaflet](https://react-leaflet.js.org/en/)**
--   **[React Leaflet](https://react-leaflet.js.org/)**
--   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+-   **[React MathJax](https://github.com/wko27/react-mathjax)**
+-   **[React Formula Beautifier](https://www.npmjs.com/package/react-formula-beautifier)**
 
-> See the file  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
-
-#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[Express](https://expressjs.com/)**
--   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
--   **[KnexJS](http://knexjs.org/)**
--   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
--   **[dotENV](https://github.com/motdotla/dotenv)**
--   **[Multer](https://github.com/expressjs/multer)**
--   **[Celebrate](https://github.com/arb/celebrate)**
--   **[Joi](https://github.com/hapijs/joi)**
-
-> See the file  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
-
-#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[Expo](https://expo.io/)**
--   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
--   **[React Navigation](https://reactnavigation.org/)**
--   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
--   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
--   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
--   **[Axios](https://github.com/axios/axios)**
--   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
--   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
-
-> See the file  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
-
-#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
-
--   Prototype:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
--   API:  **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)**  →  **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**,  **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
--   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
--   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
--   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   API Test:  **[Insomnia](https://insomnia.rest/)**
--   Icons:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
--   Fonts:  **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**,  **[Roboto](https://fonts.google.com/specimen/Roboto)**
-
+> See the file [package.json](https://github.com/orlando-gomes/calculator-web/blob/master/package.json)
 
 ---
 
-## Contributors
+## Challenge
 
-A big thanks to this group that made this product leave the field of idea and enter the app stores :)
+I didn't find an easy way to deal with the Javascript's difficulty in dealing with precision. For instance:
+-  When performing 1.1 * 3, we obtain 3.3000000000000003.
 
-You are an awesome team! :)
+A possible solution might be to perform 11 * 3 and then multiply by (10 ** -1), that is, 10 to the exponent -1. However:
+- When performing 33 * (10 ** -1), we obtain the same value 3.3000000000000003.
 
-<table>
-  <tr>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/2254731?s=400&u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&v=4" width="100px;" alt=""/><br /><sub><b>Diego Fernandes</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/4669899?s=460&u=806503605676192b5d0c363e4490e13d8127ed64&v=4" width="100px;" alt=""/><br /><sub><b>Cleiton Souza</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/861751?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Robson Marques</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/16831337?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Claudio Orlandi</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/37725197?s=460&u=446439436524c37f66e41f35b607dbb70358d5e4&v=4" width="100px;" alt=""/><br /><sub><b>Vinícios Fraga</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/26551306?s=460&u=18446655ccae6c2a29eb177a104ecf32f029aa3a&v=4" width="100px;" alt=""/><br /><sub><b>Hugo Duarte</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a>  <a href="https://blog.rocketseat.com.br/" title="Blog">🌐</a></td>
-    
-  </tr>
-  <tr>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/39345247?s=460&u=cdff2624a327a43e2765112a54e966a06eac6d79&v=4" width="100px;" alt=""/><br /><sub><b>Joseph Oliveira</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/10366880?s=460&u=59e93e1752e9d2ece4b7d8e129d60caba9c94207&v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Rodz</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/6643122?s=460&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4" width="100px;" alt=""/><br /><sub><b>Mayk Brito</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/7268910?s=460&u=0b5d9df4232e70fa66ea9f130fad4260378323de&v=4" width="100px;" alt=""/><br /><sub><b>João Paulo</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/14251143?s=460&u=340ed1d854bbacc22b9a3210a18a1f589a28bc40&v=4" width="100px;" alt=""/><br /><sub><b>Luke Morales</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/5151405?s=460&u=1dbcf0e89087c2dc902d3331b90e532db1543d2b&v=4" width="100px;" alt=""/><br /><sub><b>Luiz Batanero</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat"></a></td>
-    
-  </tr>
-</table>
+That is, product of an integer by an exponential can also generate the same error.
 
-## How to contribute
+A possible solution might be recursively divide by 10, instead of multiplying by exponential. I am still figuring out whether this would be plausible to work it out.
 
-1. Fork the project.
-2. Create a new branch with your changes: `git checkout -b my-feature`
-3. Save your changes and create a commit message telling you what you did: `git commit -m" feature: My new feature "`
-4. Submit your changes: `git push origin my-feature`
-> If you have any questions check this [guide on how to contribute](./CONTRIBUTING.md)
+Another problem is differentiate decimals from periodic tithes, where the error is welcome and it's used by most of the implemented calculators.
+
+In addition, the problem also heappens in some additions, not only in multiplications:
+-  When performing 0.1 + 0.2, we obtain 0.3000000000000004.
 
 ---
 
 ## Author
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt="Thiago Marinho"/>
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/55079964?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat"></a>
+ <sub><b style="color: #0480ED;">Orlando Gomes</b></sub>
  <br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/tgmarinho) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:tgmarinho@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Orlando-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/orlando-gomes-da-costa-a65a5384/)](https://www.linkedin.com/in/orlando-gomes-da-costa-a65a5384/)
+[![Gmail Badge](https://img.shields.io/badge/-orlandosjm@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:orlandosjm@gmail.com)](mailto:orlandosjm@gmail.com)
+[![Yahoo Badge](https://img.shields.io/badge/-orlandosjm@yahoo.com.br-6001D2?style=flat-square&logo=Yahoo!&logoColor=white&link=mailto:orlandosjm@yahoo.com.br)](mailto:orlandosjm@yahoo.com.br)
 
 ---
 
@@ -290,10 +153,8 @@ You are an awesome team! :)
 
 This project is under the license [MIT](./LICENSE).
 
-Made with love by Thiago Marinho 👋🏽 [Get in Touch!](Https://www.linkedin.com/in/tgmarinho/)
-
 ---
 
 ##  Versions of README
 
-[Portuguese](./README.md)  |  [English without emojis](./README-en.md) | [Portugueses without logo](./README-sem-logo.md) 
+[Portuguese 🇧🇷 ](./README.md)  | |  [English 🇺🇸](./README-en.md)|
