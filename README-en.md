@@ -66,12 +66,7 @@ O aplicativo tem tela única, in which work all the above features:
 
 ## How it works
 
-This project is divided into three parts:
-1. Backend (server folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
-
-Both Frontend and Mobile need the Backend to be running to work.
+This project is composed only of Frontend (execution on the web):
 
 ### Pre-requisites
 
