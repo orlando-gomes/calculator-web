@@ -79,21 +79,18 @@ In addition, it is good to have an editor to work with the code like [VSCode] (h
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone https://github.com/orlando-gomes/calculator-web.git
 
 # Access the project folder cmd/terminal
-$ cd README-ecoleta
-
-# go to the server folder
-$ cd server
+$ cd calculator-web
 
 # install the dependencies
 $ npm install
 
 # Run the application in development mode
-$ npm run dev:server
+$ npm run start
 
-# The server will start on your default browser at port: 3333 - go to http://localhost:3333
+# The server will start on your default browser at port: 3000 - go to http://localhost:3000
 
 ```
 
